@@ -15,7 +15,8 @@ public class CsvConverter implements Converter {
      */
     @Override
     public void convert(ConvertibleCollection collectionToConvert, OutputStream outputStream) {
-        // TODO: implement
+        String x = String.valueOf(collectionToConvert.getRecords());
+        outputStream.toString();
     }
 
 }
